@@ -1,1 +1,44 @@
 /* Styling file specific to experience page */
+
+article > section {
+  width: 50%;
+}
+
+h2 {
+  padding-right: 50px;
+}
+
+.proj-site {
+  width: 100%;
+}
+
+.vid-screen {
+  width: 50%;
+}
+
+#roles {
+  margin-bottom: 50px;
+}
+
+#roles + article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#bottom {
+  display: flex;
+  align-items: center;
+}
+
+#spec-rec {
+  width: 50%;
+}
+
+#spec-rec p {
+  margin-top: 0px;
+}
+
+#spec-rec > section + section {
+  margin-top: 20px;
+}

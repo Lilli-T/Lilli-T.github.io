@@ -54,9 +54,14 @@ span {
 #exp-prev {
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-#trisample {
+#top {
+  margin-top: 100px;
+}
+
+#bottom {
   margin-bottom: 100px;
 }
 
