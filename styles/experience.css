@@ -18,13 +18,13 @@ article > section {
 }
 
 #roles {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 #roles + article {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 
 #roles + article h2 {
