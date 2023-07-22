@@ -1,1 +1,35 @@
 /* Styling file specific to projects page */
+
+main > section {
+  margin-bottom: 50px;
+}
+
+.with-vis {
+  display: flex;
+  align-items: center;
+}
+
+.raw {
+  width: 50%;
+}
+
+.wrapped {
+  width: 100%;
+}
+
+.demo {
+  border: 1px solid black;
+}
+
+.text-left {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.text-right {
+  padding-left: 50px;
+}
+
+#commencement {
+  width: 50%;
+}

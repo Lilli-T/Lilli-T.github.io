@@ -4,8 +4,9 @@ article > section {
   width: 50%;
 }
 
-h2 {
-  padding-right: 50px;
+.demo {
+  border: 1px solid black;
+  width: 50%;
 }
 
 .proj-site {
@@ -26,9 +27,17 @@ h2 {
   margin-bottom: 50px;
 }
 
+#roles + article h2 {
+  padding-right: 50px;
+}
+
 #bottom {
   display: flex;
   align-items: center;
+}
+
+#bottom section {
+  padding-left: 50px;
 }
 
 #spec-rec {
