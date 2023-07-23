@@ -1,5 +1,9 @@
 /* Styling file for all pages and main page */
 
+body {
+  background-color: #ececf0;
+}
+
 main {
   margin-left: 12%;
   margin-right: 12%;
@@ -21,11 +25,22 @@ p {
 button {
   border-radius: 7px;
   border: 1px solid black;
+  background-color: #f4ccce;
+  color: #194f92;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   margin-top: 0%;
   margin-bottom: 0%;
+}
+
+a {
+  color: #e1787e;
+}
+
+a:visited {
+  color: #194f92;
 }
 
 .preview {
@@ -50,6 +65,7 @@ h1 {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: #ffff;
 }
 
 .panel p {
