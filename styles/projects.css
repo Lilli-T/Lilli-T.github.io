@@ -19,6 +19,10 @@ main > section {
 
 .demo {
   border: 1px solid black;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .text-left {
@@ -34,8 +38,15 @@ main > section {
   background-color: #ececf0;
   border-radius: 25px;
   padding: 10px;
+  filter: drop-shadow(-10px 10px 2px #efb7ba);
 }
 
 #commencement {
   width: 50%;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }
 }
