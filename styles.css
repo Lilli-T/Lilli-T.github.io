@@ -87,7 +87,13 @@ a:visited {
   align-items: center;
 }
 
-#about section, #exp-prev section, #lang section {
+#about > section {
+  padding: 20px;
+  background-color: #f4ccce;
+  border-radius: 25px;
+}
+
+#about > section > section, #exp-prev > section, #lang > section > section {
   background-color: #ececf0;
   border-radius: 25px;
   padding: 10px;
@@ -126,7 +132,7 @@ a:visited {
   border: 1px solid black;
 }
 
-#exp-prev section, #home-prev {
+#home-prev {
   width: 50%;
 }
 
@@ -138,7 +144,7 @@ a:visited {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-bottom: 175px;
+  margin-bottom: 125px;
 }
 
 #lang p {
@@ -146,8 +152,18 @@ a:visited {
   text-align: center;
 }
 
+#lang > section {
+  margin-bottom: 50px;
+}
+
 #about > img {
   margin-right: 100px;
+}
+
+#bottom > p {
+  background-color: #ececf0;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 .hidden {
