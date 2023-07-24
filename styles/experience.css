@@ -18,7 +18,11 @@ article > section {
 }
 
 #roles {
+  margin-top: 25px;
   margin-bottom: 200px;
+  background-color: #ececf0;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 #roles + article {
@@ -28,7 +32,12 @@ article > section {
 }
 
 #roles + article h2 {
-  padding-right: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 50px;
+  background-color: #ececf0;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 #bottom {
@@ -37,7 +46,15 @@ article > section {
 }
 
 #bottom section {
-  padding-left: 50px;
+  margin-left: 50px;
+  background-color: #ececf0;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#bottom h2 {
+  font-weight: 400;
+  font-size: 20px;
 }
 
 #spec-rec {
