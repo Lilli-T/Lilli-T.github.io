@@ -66,18 +66,18 @@
 }
 
 #bottom img {
-  animation-name: floating;
+  /* animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 #spec-rec {
   width: 50%;
-  animation-name: floating;
+  /* animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; */
 }
 
 #spec-rec p {
